@@ -13,6 +13,11 @@
 # limitations under the License.
 
 import streamlit as st
+import time
+import pandas as pd
+import plotly.express as px
+import plotly.graph_objects as go
+import streamlit as st
 from streamlit.logger import get_logger
 
 LOGGER = get_logger(__name__)
@@ -24,7 +29,7 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Welcome to Earthey!")
 
     st.sidebar.success("Select a demo above.")
 
